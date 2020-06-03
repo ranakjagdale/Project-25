@@ -29,8 +29,9 @@ function draw() {
   rectMode(CENTER);
   background(200);
   ground.display();
-  dust.display();
   ball.display();
+  dust.display();
+  
   drawSprites();
  
 }
